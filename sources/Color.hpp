@@ -8,14 +8,6 @@ enum Color{
     Black
 };
 
-inline std::string colorToString(int c) {
-
-    if(c == 0) { return "yellow"; }
-    if(c == 1) { return "red"; }
-    if(c == 2) { return "blue"; }
-    else { return "black"; }
-}
-
 const std::map<City, Color> citiesColors {
     { City::Algiers, Color::Black },
     { City::Atlanta, Color::Blue },
